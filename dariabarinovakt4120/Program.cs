@@ -1,3 +1,6 @@
+using dariabarinovakt4120.Database;
+using dariabarinovakt4120.Database.Configurations;
+using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
 
@@ -15,6 +18,10 @@ try
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+
+    builder.Services.AddDbContext<SubjectDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+    //builder.Services.AddServices();
 
     var app = builder.Build();
 
