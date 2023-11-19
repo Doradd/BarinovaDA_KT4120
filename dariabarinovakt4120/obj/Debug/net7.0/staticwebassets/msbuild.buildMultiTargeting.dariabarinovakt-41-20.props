@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\dariabarinovakt-41-20.props" />
+</Project>

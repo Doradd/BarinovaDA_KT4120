@@ -1,0 +1,5 @@
+C:\Users\Даша\source\repos\BarinovaDA_KT4120\BarinovaDA_KT4120.Tests\obj\Debug\net7.0\dariabarinovakt-41-20.Tests.csproj.AssemblyReference.cache
+C:\Users\Даша\source\repos\BarinovaDA_KT4120\BarinovaDA_KT4120.Tests\obj\Debug\net7.0\dariabarinovakt-41-20.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даша\source\repos\BarinovaDA_KT4120\BarinovaDA_KT4120.Tests\obj\Debug\net7.0\dariabarinovakt-41-20.Tests.AssemblyInfoInputs.cache
+C:\Users\Даша\source\repos\BarinovaDA_KT4120\BarinovaDA_KT4120.Tests\obj\Debug\net7.0\dariabarinovakt-41-20.Tests.AssemblyInfo.cs
+C:\Users\Даша\source\repos\BarinovaDA_KT4120\BarinovaDA_KT4120.Tests\obj\Debug\net7.0\dariabarinovakt-41-20.Tests.csproj.CoreCompileInputs.cache
