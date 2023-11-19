@@ -1,5 +1,6 @@
 using dariabarinovakt4120.Database;
 using dariabarinovakt4120.Database.Configurations;
+using dariabarinovakt4120.Middlewares;
 using dariabarinovakt4120.ServiceExtensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
@@ -33,6 +34,7 @@ try
         app.UseSwaggerUI();
     }
 
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
     app.UseAuthorization();
 
     app.MapControllers();
