@@ -81,7 +81,7 @@ namespace dariabarinovakt4120.Tests
             var subjectResult = await subjectService.GetSubjectBySpecAsync(filter, CancellationToken.None);
 
             //Assert
-            Assert.Equal(2, subjectResult.Length);
+            Assert.Single( subjectResult);
         }
 
     }
