@@ -1,5 +1,6 @@
 using dariabarinovakt4120.Database;
 using dariabarinovakt4120.Database.Configurations;
+using dariabarinovakt4120.ServiceExtensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
@@ -21,7 +22,7 @@ try
 
     builder.Services.AddDbContext<SubjectDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-    //builder.Services.AddServices();
+    builder.Services.AddServices();
 
     var app = builder.Build();
 
